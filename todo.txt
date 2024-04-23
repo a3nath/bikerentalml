@@ -1,0 +1,5 @@
+# intercept
+# RMSE
+# GLM model for temperature, humidity
+# GLM fopr tempo should be exact same as OLS
+# focus on AIC, BIC, p values
