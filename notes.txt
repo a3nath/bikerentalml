@@ -1,0 +1,26 @@
+count data has a uniform normal distrbution
+notice correaltion between saeason and count, yr and count, month and count, temp, atemp, windspeed,
+questions
+week days are more busy for rentals with Friday most popula followed by Thursday and Sunday least
+Addtionally, non-holidasy are more busy than holidays
+IOn terms of monthly rentals, summer is the busiest with August being the busiest and december is the least
+
+
+# month over month analysis
+# average bike rentals by weekdays
+# average bike rental by weekends
+# weekends vs weekdays
+# best day for bike rentals
+# worst day for rentals
+# what is the optimal availability
+# rental by time of day for a week day
+
+# Questions
+# Why below shows 120
+data_day.hist('mnth')
+#but when we zoom in its 62 as others
+data_day.loc[data_day['mnth']==1].hist('mnth')
+
+#temp, season, humidity on cnt
+#workinday day on registered
+#windspeed on cnt
